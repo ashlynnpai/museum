@@ -18,6 +18,7 @@
         <span class="icon-bar"></span>
       </button>
         <a class="navbar-brand" href="#">Museum</a>
+        <%= link_to 'Museum', 'root_path', class: 'navbar-brand' %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,6 +26,12 @@
       <ul class="nav navbar-nav">
         <li><a href="#">Link</a></li>
       </ul>
+         <li>
+      <%= link_to new_place_path do %>
+      <i class="glyphicon glyphicon-plus-sign"></i> 
+      New Place
+      <% end %>     
+      </li>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Link</a></li>
       </ul>
