@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'will_paginate'
 #https://hackhands.com/pagination-rails-will_paginate-gem/
 gem 'simple_form'
+gem 'devise', '>= 3.2.4'
 
 
 gem 'sdoc', '~> 0.4.0', group: :doc
